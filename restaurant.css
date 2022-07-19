@@ -1,0 +1,21 @@
+.Passion-Rundown{
+background-color:blanchedalmond;
+font-family:cursive;
+text-align: center;
+}
+
+.Personality-Photos{
+font-family:cursive;
+text-align: center;
+
+}
+
+.Lists-And-Links{
+background-color: rgb(236, 215, 255);
+font-family:cursive
+}
+
+body{
+background-image:url(clouds.jpg);
+
+}
