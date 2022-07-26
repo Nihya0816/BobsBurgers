@@ -1,22 +1,24 @@
-.Passion-Rundown{
-background-color:blanchedalmond;
-font-family:cursive;
+.passion-rundown{
+background-color:rgb(255, 255, 255, 0.5);
 text-align: center;
 }
 
 .Personality-Photos{
-font-family:cursive;
 text-align: center;
 
 }
 
 .Lists-And-Links{
 background-color:rgb(255, 255, 255, 0.5);
-font-family:cursive;
 text-align: left;
 }
 
 body{
-background-image:url(clouds.jpg);
+background-image:linear-gradient(to bottom, red, yellow);
+font-family: "Gochi Hand" ;
 
+}
+
+.carousel-caption{
+    background-color: rgba(56, 56, 56, 0.5);
 }

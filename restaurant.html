@@ -3,12 +3,14 @@
 
 <head>
     <title>Bob's Burgers</title>
-    <link rel="stylesheet" href="restaurant.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="restaurant.css">
 </head>
 
 <body>
-    <div class="Passion-Rundown">
     
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
@@ -22,7 +24,7 @@
                     <a class="nav-link active" aria-current="page" href="restaurant.html">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="about-us.html">About Us</a>
+                    <a class="nav-link" href="about-us.html">About Bob</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="blog.html">Blog</a>
@@ -42,8 +44,52 @@
             </div>
           </nav>
           <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    
-    <p>I <em>LOVE</em> Bob's Burgers! I feel like keeping the child in you alive starts with cartoons. I really like how
+   
+    <div class="Personality-Photos">
+
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://images.squarespace-cdn.com/content/v1/571ab93fc6fc0857af8d171b/1516230336421-LSTJQE4D9965B6LO1CPC/bob-belcher-bobs-burgers-favorite-tv-father-figure.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Bob Belcher</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="http://247gamingspot.com/images/blog/thumbnails/202205/img_2805073608.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://www.pluggedin.com/wp-content/uploads/2020/01/bobs-burgers-review-image.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+            
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+              
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+        
+      <div class="passion-rundown">
+      <br><p>I <em>LOVE</em> Bob's Burgers! I feel like keeping the child in you alive starts with cartoons. I really like how
         Bob's Burgers stays kid friendly enough for children to watch and not catch on to the adult content in the
         cartoon. It really achieves the fun and entertaining concept that every cartoon should have. When thinking of a
         passion, essentially, people like to think of what is something they love to do. For me, a passion can come in
@@ -56,11 +102,10 @@
         of that turned into me making a cool website out of the one thing I get excited about. The cartoon fits in with
         my outgoing and bubbly personality because the characters are so fun and silly. <em>(Like me of course!)</em> I
         continue to be inspired to do creative and fun things after I get done watching the show. This show honestly
-        makes me want a burger every time I watch it, lol.</p>
-        </div>
-   
-    <div class="Personality-Photos">
-        
+        makes me want a burger every time I watch it, lol.</p><br>
+</div>
+
+
     <img src="https://www.metroweekly.com/wp-content/uploads/2022/02/022422-Linda-COVER-BOB_S-BURGERS-%C2%A9-2022-by-20th-Television.-Artwork-%C2%A9-2022-by-Fox-Media-LLC.jpg"
     height="350px"
     width="270px"
@@ -88,6 +133,7 @@
 
         <a href="https://www.hulu.com/series/fdeb1018-4472-442f-ba94-fb087cdea069">When All Else Fails</a>
 </div>
+<div
     <p>Enter you favorite character:</p>
     <form>
         <input type="text" list="characters" name="favorite character">
