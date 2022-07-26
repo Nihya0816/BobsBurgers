@@ -1,0 +1,13 @@
+body{
+    background-image: linear-gradient(to bottom, red, yellow);
+    font-family: "Creepster";
+}
+
+.text-section1{
+    background-color: rgb(255, 255, 255, 0.5);
+}
+
+.header2{
+    background-color: rgb(255, 255, 255, 0.5);
+    text-align: center;
+}
