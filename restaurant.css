@@ -22,3 +22,11 @@ font-family: "Gochi Hand" ;
 .carousel-caption{
     background-color: rgba(56, 56, 56, 0.5);
 }
+
+.form-section{
+    text-align: left;
+}
+
+.dropdown-section{
+    text-align: left;
+}

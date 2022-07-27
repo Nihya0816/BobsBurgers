@@ -1,8 +1,9 @@
 body{
     font-family: "Gochi Hand";
-}
-
-.list-group{
+    background-image: linear-gradient(to bottom, red, yellow);
     text-align: center;
 }
 
+.blog{
+    background-color: rgb(255, 255, 255, 0.5);
+}
